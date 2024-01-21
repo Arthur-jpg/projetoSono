@@ -45,7 +45,7 @@ function entrada() {
     }
     
 
-    const htmlResposta = `<div>Hora de acordar ${respostaHorario}</div>
+    const htmlResposta = `<div>Você deve acordar ${respostaHorario}</div>
     <div>Serão ${horasDif} horas de sono</div>
     `
 
