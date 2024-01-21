@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(10, 4, 61);
+    color: white;
+}
+
+button {
+    background-color: rgb(10, 4, 61); /* Green */
+    border: 1px solid white;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 10px;
+    font-family: cursive;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    
+}
+
+input {
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.header {
+    font-size: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.entrada{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+.botao{
+    padding-bottom: 25px;
+}
